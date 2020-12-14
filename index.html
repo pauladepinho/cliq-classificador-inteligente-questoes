@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cliq - Classificador Inteligente de Questões</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h3>cliq - Classificador Inteligente de Questões</h3>
+    </header>
+    <h1>Avalie o grau de dificuldade da sua questão do Enem</h1>
+    <form action="" id="form">
+        <ul>
+            <li><label>
+                    <input type="radio" name="field-of-knowledge" value="humanas" id="humanas" checked>
+                    <img src="assets/img/002-caravela.png" alt="Ciências Humanas e suas Tecnologias">
+                    <h2>Ciências Humanas
+                    <br>e suas Tecnologias</h2>
+            </label></li>
+            <li><label>
+                    <input type="radio" name="field-of-knowledge" value="linguagens" id="linguagens">
+                    <img src="assets/img/004-texto.png" alt="Linguagens, Códigos e suas Tecnologias">
+                    <h2>Linguagens, Códigos
+                    <br>e suas Tecnologias</h2>
+            </label></li>
+            <li><label>
+                <input type="radio" name="field-of-knowledge" value="natureza" id="natureza">
+                <img src="assets/img/003-fisica.png" alt="Ciências da Natureza e suas Tecnologias">
+                <h2>Ciências da Natureza
+                <br>e suas Tecnologias</h2>
+            </label></li>
+            <li><label>
+                <input type="radio" name="field-of-knowledge" value="matematica" id="matematica">
+                <img src="assets/img/001-matematica.png" alt="Matemática e suas Tecnologias">
+                <h2>Matemática
+                <br>e suas Tecnologias</h2>
+            </label></li>
+        </ul>
+        <input type="text" id="search-box" placeholder="Digite aqui sua questão sobre Ciências da Natureza e suas Tecnologias.">
+        <button type="button" id="eval">Avaliar</button>
+    </form>
+    <div id="result"></div>
+
+    <footer>
+        <img src="assets/img/logo-ppgi.png">
+        <span id="email">rafaeldigital@gmail.com</span>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
